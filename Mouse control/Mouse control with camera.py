@@ -8,8 +8,6 @@ import mouse
 
 network_path = r"D:\Neural networks\hand_landmarker.task"
 
-thumbs_up = cv.imread(r"D:\Pictures\thumbs up.jpeg")
-
 base__options = mp.tasks.BaseOptions
 Hand_landmarker = mp.tasks.vision.HandLandmarker
 Hand_landmarker_options = mp.tasks.vision.HandLandmarkerOptions
